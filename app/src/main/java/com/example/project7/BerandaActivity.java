@@ -15,11 +15,11 @@ public class BerandaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beranda);
 
-        if(databunga == null){
-            databunga = new ArrayList<>();
-            databunga.add("Mawar 8000");
-            databunga.add("Melati 10000");
-        }
+//        if(databunga == null){
+//            databunga = new ArrayList<>();
+//            databunga.add("Mawar 8000");
+//            databunga.add("Melati 10000");
+//        }
     }
 
     public void btnLihatBunga(View view) {
